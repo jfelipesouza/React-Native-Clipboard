@@ -1,4 +1,5 @@
 import React from "react";
+import {TouchableWithoutFeedback} from 'react-native'
 import {Feather} from '@expo/vector-icons'
 import { LinearGradient } from "expo-linear-gradient";
 import Menu from "../../components/Menu";
@@ -16,6 +17,7 @@ import {
 
 export default function Home(props){
     return(
+        <TouchableWithoutFeedback>
         <LinearGradient
             style={{flex:1,justifyContent:'center'}}
             colors={['#1ddbb9','#132742']}    
@@ -51,5 +53,6 @@ export default function Home(props){
             </ContainerContent>
                         
         </LinearGradient>
+        </TouchableWithoutFeedback>
     )
 }
