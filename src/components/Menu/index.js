@@ -16,9 +16,16 @@ export default function Menu(props){
                 <Feather name = "menu" color = {'#fff'} size={40}/>
             </ButtonMenu>
 
-            <ButtonMenu>
-                <Feather name = 'share-2' color = {'#fff'} size={40}/>
-            </ButtonMenu>
+            {
+                props.secondEnable
+                    ?
+                    <ButtonMenu>
+                        <Feather name = 'share-2' color = {'#fff'} size={40}/>
+                    </ButtonMenu>    
+                    :
+                    <ButtonMenu/>   
+            }
+            
         </Container>
     )
 }

@@ -29,7 +29,7 @@ export const SubTitle = styled.Text`
     color:white;
     font-size:18px;
     text-align:center;
-    padding-bottom:10%;
+    padding-bottom:5%;
 `;
 
 export const ContainerInput = styled.View`
