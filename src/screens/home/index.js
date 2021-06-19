@@ -14,6 +14,7 @@ import {
     ButtomLink,
     ButtonLinkText,
 } from './home'
+
 import ModalLink from "../../components/ModalLink";
 
 export default function Home(props){
@@ -32,7 +33,7 @@ export default function Home(props){
                 style={{flex:1,justifyContent:'center'}}
                 colors={['#1ddbb9','#132742']}    
             >
-                <Menu secondEnable = {false}/>
+                <Menu />
                 
                 <ContainerLogo>
                     <Logo 

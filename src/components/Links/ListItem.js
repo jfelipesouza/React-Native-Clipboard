@@ -1,10 +1,12 @@
 import React from 'react'
 import {View,Text} from 'react-native'
-import {} from './styled'
+import {Container} from './styled'
+
 export default function ListItem(props) {
     return(
-        <View>
-            
-        </View>
+
+        <Container>
+            <Text>Ola mundo</Text>
+        </Container>
     )
 }

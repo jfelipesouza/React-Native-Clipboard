@@ -1,13 +1,12 @@
 import React from 'react';
-import { StatusBar } from 'expo-status-bar';
-import {View } from 'react-native';
+import {View,StatusBar } from 'react-native';
 import Routes from './src/screens/routes';
 
 export default function App() {
   return (
     <View style={{flex:1}} >
       <Routes/>
-      <StatusBar style='auto' />
+      <StatusBar backgroundColor={'#123'} barStyle={'light-content'} />
     </View>
   );
 }

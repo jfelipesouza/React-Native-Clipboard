@@ -4,7 +4,7 @@ import {Platform} from 'react-native'
 export const ContainerLogo = styled.View`
   align-items:center;
   justify-content:center;
-  margin-top:${Platform.OS ==='ios'?35+'px':15+'px'};
+  margin-top:${Platform.OS ==='ios'?35+'px':5+'px'};
 
 `;
 
@@ -14,7 +14,7 @@ export const Logo = styled.Image`
 `;
 
 export const ContainerContent = styled.View`
-    margin-top:${Platform.OS ==='ios'?35+'%':15+'%'};
+    margin-top:${Platform.OS ==='ios'?35+'%':5+'%'};
 
 `;
 
